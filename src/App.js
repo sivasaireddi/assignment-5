@@ -61,17 +61,18 @@ function App() {
   return (
     <div style={{
       border:'5px solid #1f1f1f',
-      margin:'30px',
+      margin:'1px',
       padding:'20px',
      display:'flex',
 flexWrap:'wrap',
       gap:'60px',
+      background:'black'
       
     }}>
       {
         movieCards.map(e=>{
         return( 
-        <div style={{ color:'blue'}}>
+        <div style={{ color:'brown'}}>
           <img width='300px' height='300px' src={e['imageLink']} alt="img"/>
 <h2 >{e.movieName}</h2> 
 </div>
