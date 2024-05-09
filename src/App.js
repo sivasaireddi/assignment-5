@@ -61,7 +61,8 @@ function App() {
   return (
     <div style={{
       display:'flex',
-      flexWrap:'wrap'
+      flexWrap:'wrap',
+      gap:'60px'
     }}>
       {
         movieCards.map(e=>{
