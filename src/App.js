@@ -60,15 +60,21 @@ const movieCards=[
 function App() {
   return (
     <div style={{
-      display:'flex',
-      flexWrap:'wrap',
-      gap:'60px'
+      border:'10px solid #1f1f1f',
+      margin:'30px',
+      padding:'20px',
+     display:'flex',
+flexWrap:'wrap',
+      gap:'60px',
+      
     }}>
       {
         movieCards.map(e=>{
-        return( <><img width='250px' height='250px' src={e['imageLink']} alt="img"/>
-
-<h2>{e.movieName}</h2> </>
+        return( 
+        <div>
+          <img width='250px' height='250px' src={e['imageLink']} alt="img"/>
+<h2 >{e.movieName}</h2> 
+</div>
         )
 
         })
