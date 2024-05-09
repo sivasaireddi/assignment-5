@@ -60,7 +60,7 @@ const movieCards=[
 function App() {
   return (
     <div style={{
-      border:'10px solid #1f1f1f',
+      border:'5px solid #1f1f1f',
       margin:'30px',
       padding:'20px',
      display:'flex',
@@ -71,8 +71,8 @@ flexWrap:'wrap',
       {
         movieCards.map(e=>{
         return( 
-        <div>
-          <img width='250px' height='250px' src={e['imageLink']} alt="img"/>
+        <div style={{ color:'blue'}}>
+          <img width='300px' height='300px' src={e['imageLink']} alt="img"/>
 <h2 >{e.movieName}</h2> 
 </div>
         )
