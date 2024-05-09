@@ -73,7 +73,7 @@ flexWrap:'wrap',
         movieCards.map(e=>{
         return( 
         <div style={{ color:'brown'}}>
-          <img width='300px' height='300px' src={e['imageLink']} alt="img"/>
+          <img width='240px' height='220px' src={e['imageLink']} alt="img"/>
 <h2 >{e.movieName}</h2> 
 </div>
         )
